@@ -18,15 +18,6 @@ class CalculatorTest {
 		assertEquals(c.sub(10,1), 9);
 	}
 	
-	@Test
-	void testdivide() {
-		Calculator c = new Calculator();
-		assertEquals(c.divide(10,5), 2);
-	}
 	
-	@Test
-	void testmultiply() {
-		Calculator c = new Calculator();
-		assertEquals(c.multiply(10,5), 50);
-	}
+	
 }
